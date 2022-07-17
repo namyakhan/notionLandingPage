@@ -42,7 +42,7 @@ const Hero = () => {
       </div>
 
       <div className=" mb-5">
-        <img className="w-[500px] h-auto" src="/hero.avif" alt="notion-image" />
+        <img className="w-[500px] h-auto" src="/hero.png" alt="notion-image" />
       </div>
     </div>
   );
