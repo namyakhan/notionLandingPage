@@ -16,9 +16,9 @@ const Hero = () => {
         <Buttons />
         <div>
           <p className="text-greyish mt-10 mb-2 text-sm">Trusted by teams at</p>
-          <div className="flex justify-between space-x-5">
+          <div className="flex justify-evenly lg:justify-start lg:space-x-5 ">
             <img
-              className="w-[80px] h-[20px]"
+              className=" w-[80px] h-[20px]"
               src="/curology.png"
               alt="curology-logo"
             />
@@ -27,13 +27,9 @@ const Hero = () => {
               src="/mixpanel.png"
               alt="curology-logo"
             />
+
             <img
-              className="w-[120px] h-[20px]"
-              src="/match.png"
-              alt="curology-logo"
-            />
-            <img
-              className="w-[100px] h-[20px]"
+              className=" w-[100px] h-[20px]"
               src="/headspace.png"
               alt="curology-logo"
             />
@@ -41,7 +37,7 @@ const Hero = () => {
         </div>
       </div>
 
-      <div className="mb-5">
+      <div className="mt-5 md:mt-0 mb-5 ">
         <img
           className="lg:mr-20 w-[320px] h:[500px] md:w-[400px] md:[500px] lg:w-[500px] lg:h-auto"
           src="/hero.png"
