@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Buttons from "./reusable/Buttons.js";
-import { useState } from "react";
+
 
 const NavItem = (props) => {
-  let [open, setOpen] = useState(false);
+
 
   return (
     <div>
