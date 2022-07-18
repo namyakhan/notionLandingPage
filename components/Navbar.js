@@ -29,7 +29,7 @@ const Navbar = () => {
             <span className="text-md font-bold ml-2 mr-4">Notion</span>
           </div>
 
-          <div className="hidden w-full md:block md:w-auto">
+          <div className="hidden w-full lg:block lg:w-auto">
             <ul className="flex items-center space-x-8">
               <NavItem href="/product" text="Product" />
               <NavItem href="/download" text="Download" />
@@ -39,7 +39,7 @@ const Navbar = () => {
             </ul>
           </div>
         </div>
-        <div className="hidden w-full md:block md:w-auto">
+        <div className="hidden w-full lg:block lg:w-auto">
           <ul className="flex items-center space-x-3 ">
             <NavItem href="/contact" text="Contact sales" />
             <NavItem href="/login" text="Log in" />

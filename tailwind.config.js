@@ -17,11 +17,12 @@ module.exports = {
       },
 
       screens: {
-        sm: "600px",
-        md: "1028px",
-        lg: "1050px",
+        sm: "500px",
+        md: "600px",
+        lg: "1000px",
         xl: "1320px",
       },
+    
     },
   },
   plugins: [],
